@@ -6,5 +6,7 @@ export function addAreaElement(className, parent, id, link, points) {
   // elem.setAttribute("target", "_blank");
   elem.setAttribute("href", link);
   elem.setAttribute("data-store", id);
+  elem.setAttribute("title", `store-${id}`);
+
   parent.appendChild(elem);
 }

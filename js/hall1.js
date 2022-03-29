@@ -33,4 +33,8 @@ window.addEventListener("load", () => {
   if (areaElem.length > 0) {
     areaElem.forEach((elem) => console.log(elem));
   }
+
+  function fun() {
+    window.alert("hello");
+  }
 });
